@@ -1,7 +1,9 @@
 local M = {}
 
 function M.hello()
-  print("Hello World!")
+  if vim.bo.modified then
+    print("Modified file: " .. vim.fn.expand("%"))
+  end
 end
 
 return M
