@@ -19,18 +19,8 @@
 use "aidyak/sentinel"
 ```
 
-## 使用方法
+## 機能
 
-Neovimで以下のコマンドを実行します：
+Vim終了時に未保存のファイルがあれば通知します。
 
-```vim
-:Sentinel
-```
-
-「Hello World!」と表示されます。
-
-## Lua API
-
-```lua
-require("sentinel").hello()
-```
+プラグインをインストールすると自動的に有効化されます。
